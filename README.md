@@ -1,5 +1,5 @@
 # SRTranslatorGUI-Python
-SRT files translator GUI https://github.com/sinedie/SRTranslator
+SRT files translator https://github.com/sinedie/SRTranslator
 
 # Install
 
