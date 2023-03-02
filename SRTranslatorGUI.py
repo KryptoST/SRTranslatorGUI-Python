@@ -87,11 +87,11 @@ file_list = []
 frame = ttk.Frame(root)
 # Crear los widgets
 combo_box1 = ttk.Combobox(frame, values=["Any language (detect)", "Bulgarian","Chinese","Czech","Danish","Dutch","English",
- "Estonian","Finnish","French","German","Greek","Hungarian","Indonesian","Italian","Japanese","Latvian","Lithuanian","Polish",   
+ "Estonian","Finnish","French","German","Greek","Hungarian","Indonesian","Italian","Japanese","Korean","Latvian","Lithuanian","Polish",   
   "Portuguese","Romanian","Russian","Slovak","Slovenian","Spanish","Swedish","Turkish","Ukrainian"])
 combo_box1.set("Any language (detect)")
 combo_box2 = ttk.Combobox(frame, values=["Bulgarian","Chinese","Czech","Danish","Dutch","English (American)","English (British)",
- "Estonian","Finnish","French","German","Greek","Hungarian","Indonesian","Italian","Japanese","Latvian","Lithuanian","Polish",   
+ "Estonian","Finnish","French","German","Greek","Hungarian","Indonesian","Italian","Japanese","Korean","Latvian","Lithuanian","Polish",   
   "Portuguese","Portuguese (Brazilian)","Romanian","Russian","Slovak","Slovenian","Spanish","Swedish","Turkish","Ukrainian"])
 combo_box1.set("Any language (detect)")
 combo_box2.set("Spanish")
@@ -186,6 +186,7 @@ languages_source={
     'Indonesian': 'id', 
     'Italian': 'it', 
     'Japanese': 'ja', 
+    'Korean': 'ko', 
     'Latvian': 'lv', 
     'Lithuanian': 'lt',
     'Polish': 'pl',
@@ -217,6 +218,7 @@ languages_dest={
     'Indonesian': 'id', 
     'Italian': 'it', 
     'Japanese': 'ja', 
+    'Korean': 'ko', 
     'Latvian': 'lv', 
     'Lithuanian': 'lt',
     'Polish': 'pl',
