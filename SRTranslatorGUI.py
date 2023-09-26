@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
 from srtranslator import SrtFile
-from srtranslator.translators.deepl import DeeplTranslator
+from srtranslator.translators import deepl_scrap as DeeplTranslator
 
 def open_folder():
     folder_path = filedialog.askdirectory(
